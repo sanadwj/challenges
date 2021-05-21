@@ -1,0 +1,18 @@
+def atm(total, denominations)
+  row_data = denominations.inject({}) do |hash, denomination|
+    hash[denomination] = total.divmod(denomination)
+    total -= total.divmod(denomination).first * denomination
+  end
+
+  row_data.map do |k, v|
+    row_data[k] = v.first
+  end
+
+  row_data
+end
+
+describe 'atm' do
+  it 'dispenses the correct denominations to the user' do
+    expect(atm(185, [100, 20, 10, 5])).to eq({100 => 1, 20 => 4, 10 => 0, 5 => 1})
+  end
+end
