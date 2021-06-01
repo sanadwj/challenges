@@ -1,6 +1,6 @@
 class Array
   def range_finder
-    [self.min, self.max]
+    self.minmax
   end
 end
 
