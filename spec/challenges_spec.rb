@@ -36,3 +36,5 @@ require_relative "../breadcrumb_generator"
 require_relative "../fibonacci"
 require_relative "../mod_checker"
 require_relative "../largest_word"
+
+require_relative "../at_least_four_characters.rb"
