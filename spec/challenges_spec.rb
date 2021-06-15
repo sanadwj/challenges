@@ -38,3 +38,4 @@ require_relative "../mod_checker"
 require_relative "../largest_word"
 
 require_relative "../at_least_four_characters.rb"
+require_relative '../prime_numbers.rb'
