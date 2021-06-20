@@ -40,3 +40,4 @@ require_relative "../at_least_four_characters.rb"
 require_relative '../prime_numbers.rb'
 require_relative '../greater_than.rb'
 require_relative '../two_sum.rb'
+require_relative "../reversed_integer"
