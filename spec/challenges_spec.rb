@@ -42,3 +42,4 @@ require_relative '../greater_than.rb'
 require_relative '../two_sum.rb'
 require_relative "../reversed_integer"
 require_relative "../palindrome_number"
+require_relative "../longest_common_prefix.rb"
