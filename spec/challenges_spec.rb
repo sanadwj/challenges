@@ -51,3 +51,4 @@ require_relative "../hashtag_generator.rb"
 require_relative "../largest_hidden_word.rb"
 require_relative "../chat.rb"
 require_relative "../sentence_reverser.rb"
+require_relative '../unchangeable_elements.rb'
